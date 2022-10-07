@@ -1,0 +1,50 @@
+input {
+    position: relative;
+    display: inline-block;
+    font-size: 15px;
+    box-sizing: border-box;
+    transition: .5%;
+
+}
+
+input[type="text"] {
+    background: #fff;
+    width: 375px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding: 0 20px;
+    border-radius: 5px 0px 0px 5px;
+
+
+}
+
+input[type="submit"] {
+    position: relative;
+    left: -5px;
+    border-radius: 0px 5px 5px 0px;
+    width: 150px;
+    height: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: black;
+    color: #fff;
+
+}
+
+input[type="submit"]:hover {
+    background: darkgray;
+
+}
+
+nav a:hover {
+    background: white;
+}
+
+.container-fluid1 {
+    /* margin top: 40%; */
+    /* margin: -5%; 
+    padding: 21%;  */
+    background-color: lightgrey;
+}
